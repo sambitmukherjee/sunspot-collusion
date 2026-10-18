@@ -1,0 +1,1 @@
+"""Sunspot Collusion research package."""

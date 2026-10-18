@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+.ipynb_checkpoints/
+dist/
+build/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+execution_logs/
+.idea/
+.vscode/
+
+# Local Codex instruction and prompt files (never publish).
+/AGENTS.md
+codex_phase_*.md
+codex_instruction*.md
+codex_prompt*.md
+codex_*_prompt*
+codex_*.md
