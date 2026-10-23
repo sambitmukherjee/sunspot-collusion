@@ -1,0 +1,21 @@
+{
+  "additional_episodes_executed": 0,
+  "attempt_number": 2,
+  "canonical_run_dir": "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/runs/confirmatory_block_13__no_prior_communication__public",
+  "cli_output_sha256": "f1434b7af9e6d8ea4c8d2250fe451c9dd34b96d80f32a8e2e6946a56965f33ec",
+  "copied_log_sha256": {
+    "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/execution_attempts/block_13__no_prior_communication__public/attempt_002_logs/block_13__no_prior_communication__public.txt": "5e9a307f6e3cfb0d81378ea2a326bfa8b42e107baa5dda0ed37bef2de53ccc88",
+    "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/execution_attempts/block_13__no_prior_communication__public/attempt_002_logs/block_13__no_prior_communication__public_market_responses.txt": "b5f7de9b87c52def709b558507f4e897f59ef38923656c301eb382e6b711ac13"
+  },
+  "episode_id": "block_13__no_prior_communication__public",
+  "final_episode_sha256": "000518371430b69732af51b0ff48f308083478761cb40e51533ba38fdcdb0616",
+  "manifest_payload_sha256": "1339cf3cc3a520e3722386f2ca1ee87d23df63b04be5251d47223bfc4a19fc90",
+  "original_failure_provenance": "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/execution_attempts/block_13__no_prior_communication__public/attempt_001_pre_response_technical_failure/provenance.json",
+  "preflight": "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/execution_attempts/block_13__no_prior_communication__public/attempt_002_preflight.json",
+  "record_type": "technical_retry_outcome_v1",
+  "recorded_at_utc": "2026-10-23T06:45:49.797669+00:00",
+  "rounds_jsonl_sha256": "a6538c1396c3d3d5a412a3af2189bc3966bb7d1aea0d419c3bcf400a29fdf0aa",
+  "run_status": "completed",
+  "scientific_rounds_committed": 150,
+  "scientific_settings_unchanged": true
+}
