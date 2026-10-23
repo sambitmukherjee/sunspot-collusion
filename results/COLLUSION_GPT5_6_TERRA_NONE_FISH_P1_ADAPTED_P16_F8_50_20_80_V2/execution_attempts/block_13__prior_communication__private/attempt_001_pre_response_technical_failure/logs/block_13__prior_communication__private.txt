@@ -1,0 +1,15 @@
+Episode ID: block_13__prior_communication__private
+Run name: confirmatory_block_13__prior_communication__private
+Block: block_13
+Manifest position: 4
+Treatment: prior_communication=True, signal_condition=private
+Specification: COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2
+Prompt family: fish_p1_adapted
+Prompt version: PROMPT_FISH_P1_ADAPTED_STRUCTURED_V1
+Manifest SHA-256: 1339cf3cc3a520e3722386f2ca1ee87d23df63b04be5251d47223bfc4a19fc90
+
+Beginning of Phase 1. The communication channel is available.
+
+Round   1/150:
+ ROUND FAILED: APICallFailure
+ Last scientifically committed round: 0
