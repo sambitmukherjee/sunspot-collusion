@@ -1,0 +1,35 @@
+{
+  "attempt_number": 2,
+  "authorization": "User requested execution of block 19 position 6; frozen narrow pre-response technical-retry exception applies.",
+  "block_id": "block_19",
+  "episode_id": "block_19__no_prior_communication__private",
+  "manifest_payload_sha256": "1339cf3cc3a520e3722386f2ca1ee87d23df63b04be5251d47223bfc4a19fc90",
+  "original_attempt_archive": "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/execution_attempts/block_19__no_prior_communication__private/attempt_001_pre_response_technical_failure",
+  "original_attempt_provenance": "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/execution_attempts/block_19__no_prior_communication__private/attempt_001_pre_response_technical_failure/provenance.json",
+  "prepared_at_utc": "2026-10-25T15:54:12.782122+00:00",
+  "prior_communication": false,
+  "prompt_caching_policy": "provider_default",
+  "prompt_family": "fish_p1_adapted",
+  "prompt_version": "PROMPT_FISH_P1_ADAPTED_STRUCTURED_V1",
+  "record_type": "technical_retry_preflight_v1",
+  "response_contract_version": "STRUCTURED_OUTPUTS_V1",
+  "retry_log_paths": [
+    "execution_logs/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/episodes/block_19__no_prior_communication__private.txt",
+    "execution_logs/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/episodes/block_19__no_prior_communication__private_market_responses.txt"
+  ],
+  "retry_run_dir": "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/runs/confirmatory_block_19__no_prior_communication__private",
+  "run_name": "confirmatory_block_19__no_prior_communication__private",
+  "scientific_config_sha256": "6eb818f7743004a4ec95d0d9c45a44e25b7ecdc6fa5529998f60f5bab9fce594",
+  "scientific_state_at_retry_start": "initial episode state; attempt 1 has zero committed rounds, zero completed model calls, and no scientific state transition",
+  "sequence_position": 6,
+  "signal_condition": "private",
+  "signal_schedule_hash": "81e953e5324bb518a466e431df4eff0bdf4cd3633f942fafbda6bb0704bb40d3",
+  "signal_seeds": {
+    "private_signal_seed_A": 145520704823930676,
+    "private_signal_seed_B": 16775923074364897316,
+    "public_signal_seed": null
+  },
+  "specification_id": "COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2",
+  "technical_repair": "Use network-enabled execution for the unchanged canonical runner. Restricted-sandbox DNS failed; network-enabled DNS worked and authenticated TLS-verified GET /v1/models returned HTTP 200.",
+  "treatment_id": "no_prior_communication__private"
+}
