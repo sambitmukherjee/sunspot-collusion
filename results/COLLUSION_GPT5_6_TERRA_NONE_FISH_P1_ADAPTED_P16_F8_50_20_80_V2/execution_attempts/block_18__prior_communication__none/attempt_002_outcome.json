@@ -1,0 +1,42 @@
+{
+  "archived_log_paths": [
+    "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/execution_attempts/block_18__prior_communication__none/attempt_002_logs/block_18__prior_communication__none.txt",
+    "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/execution_attempts/block_18__prior_communication__none/attempt_002_logs/block_18__prior_communication__none_market_responses.txt"
+  ],
+  "archived_log_sha256": {
+    "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/execution_attempts/block_18__prior_communication__none/attempt_002_logs/block_18__prior_communication__none.txt": "5e86f2b5e771ef66f0b80127456aed0c8cd33162915a5515d5bce69533c5d174",
+    "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/execution_attempts/block_18__prior_communication__none/attempt_002_logs/block_18__prior_communication__none_market_responses.txt": "ca540de3e9a49feb3121c29173afcba6e0989740b457ff9c9520f8d4c5f895c5"
+  },
+  "attempt_number": 2,
+  "block_id": "block_18",
+  "committed_round_count": 150,
+  "completed_at_utc": "2026-10-25T12:22:41.362263+00:00",
+  "episode_id": "block_18__prior_communication__none",
+  "episode_summary_table_updated_during_execution": false,
+  "last_completed_round": 150,
+  "log_paths": [
+    "execution_logs/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/episodes/block_18__prior_communication__none.txt",
+    "execution_logs/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/episodes/block_18__prior_communication__none_market_responses.txt"
+  ],
+  "manifest_payload_sha256": "1339cf3cc3a520e3722386f2ca1ee87d23df63b04be5251d47223bfc4a19fc90",
+  "new_attempt_file_sha256": {
+    "execution_logs/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/episodes/block_18__prior_communication__none.txt": "5e86f2b5e771ef66f0b80127456aed0c8cd33162915a5515d5bce69533c5d174",
+    "execution_logs/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/episodes/block_18__prior_communication__none_market_responses.txt": "ca540de3e9a49feb3121c29173afcba6e0989740b457ff9c9520f8d4c5f895c5",
+    "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/runs/confirmatory_block_18__prior_communication__none/config.json": "081ac83feefab4186b2f1434cf00b957af130375322e756558e0134f298b1cfe",
+    "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/runs/confirmatory_block_18__prior_communication__none/final_episode.json": "e6c16fa7d84aaa498f6e031b3b85de1714fb097d143e05c5292e72245652c02d",
+    "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/runs/confirmatory_block_18__prior_communication__none/rounds.jsonl": "49426e61e33f5c7865814b082fbe159e63e7b16ca83419f9d9fd42e8d8b63735",
+    "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/runs/confirmatory_block_18__prior_communication__none/state_checkpoint.json": "036ab0a11ea4df41ad4ac87b76daf8a022c78ee31f1794762ee6d12d699f9ffb"
+  },
+  "original_attempt_archive": "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/execution_attempts/block_18__prior_communication__none/attempt_001_pre_response_technical_failure",
+  "other_episode_execution": "none",
+  "preflight_record": "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/execution_attempts/block_18__prior_communication__none/attempt_002_preflight.json",
+  "record_type": "technical_retry_outcome_v1",
+  "recorded_at_utc": "2026-10-25T12:23:05.367233+00:00",
+  "run_dir": "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/runs/confirmatory_block_18__prior_communication__none",
+  "run_name": "confirmatory_block_18__prior_communication__none",
+  "sequence_position": 6,
+  "signal_schedule_hash": "4ddf0dd9898a738be556f6b40a4f32b97494901126bc13007dad7f508b95a447",
+  "specification_id": "COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2",
+  "started_at_utc": "2026-10-25T12:03:01.988301+00:00",
+  "status": "completed"
+}

@@ -1,0 +1,33 @@
+{
+  "attempt_number": 2,
+  "authorization": "User-directed execution of block 18, position 6 under the existing narrow pre-response technical-retry rule",
+  "block_id": "block_18",
+  "episode_id": "block_18__prior_communication__none",
+  "frozen_scientific_files_unchanged": true,
+  "manifest_payload_sha256": "1339cf3cc3a520e3722386f2ca1ee87d23df63b04be5251d47223bfc4a19fc90",
+  "original_attempt_archive": "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/execution_attempts/block_18__prior_communication__none/attempt_001_pre_response_technical_failure",
+  "original_attempt_provenance": "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/execution_attempts/block_18__prior_communication__none/attempt_001_pre_response_technical_failure/provenance.json",
+  "prepared_at_utc": "2026-10-25T12:02:49.290708+00:00",
+  "previous_manifest_positions_validated": 107,
+  "prior_communication": true,
+  "prompt_caching_policy": "provider_default",
+  "prompt_family": "fish_p1_adapted",
+  "prompt_version": "PROMPT_FISH_P1_ADAPTED_STRUCTURED_V1",
+  "record_type": "technical_retry_preflight_v1",
+  "response_contract_version": "STRUCTURED_OUTPUTS_V1",
+  "retry_run_dir": "results/COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2/runs/confirmatory_block_18__prior_communication__none",
+  "run_name": "confirmatory_block_18__prior_communication__none",
+  "scientific_config_sha256": "6eb818f7743004a4ec95d0d9c45a44e25b7ecdc6fa5529998f60f5bab9fce594",
+  "scientific_state_at_retry_start": "initial episode state; no committed rounds or completed model calls in attempt 1",
+  "sequence_position": 6,
+  "signal_condition": "none",
+  "signal_schedule_hash": "4ddf0dd9898a738be556f6b40a4f32b97494901126bc13007dad7f508b95a447",
+  "signal_seeds": {
+    "private_signal_seed_A": null,
+    "private_signal_seed_B": null,
+    "public_signal_seed": null
+  },
+  "specification_id": "COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2",
+  "technical_repair": "Execute the unchanged canonical runner with network-enabled permissions. Outside the restricted sandbox, api.openai.com DNS resolved and unauthenticated HTTPS GET /v1/models returned HTTP 401, confirming transport and TLS connectivity.",
+  "treatment_id": "prior_communication__none"
+}
