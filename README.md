@@ -1,10 +1,16 @@
 # Sunspot Collusion
 
-This repository prepares a 30-block, 180-episode confirmatory experiment with two sellers and a payoff-irrelevant public signal. The current specification is `COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2`. Its [config](configs/gpt5_6_terra_none_fish_p1_adapted_v2.yaml) and [manifest](configs/gpt5_6_terra_none_fish_p1_adapted_v2_manifest.json) are the sole active scientific plan. Execution requires a separate human freeze decision; no confirmatory episode has been run.
+This repository contains an experiment with two agents and a payoff-irrelevant public signal. The original [manifest](configs/gpt5_6_terra_none_fish_p1_adapted_v2_manifest.json) specifies 30 matched blocks (180 episodes). The first 20 blocks (120 episodes) are complete and form the scientific sample analyzed for the sprint submission; blocks 21–30 were not run. The experiment uses specification `COLLUSION_GPT5_6_TERRA_NONE_FISH_P1_ADAPTED_P16_F8_50_20_80_V2` and its [config](configs/gpt5_6_terra_none_fish_p1_adapted_v2.yaml).
+
+## Sprint provenance
+
+The experimental runner, config, manifest, and protocol were prepared before 23 October 2026. Before that date, I also ran preliminary exploratory work while adapting [Fish et al.'s](https://arxiv.org/abs/2404.00806) economic environment and tuning incentives. Those exploratory runs are excluded from the 120 reported episodes.
+
+Using UTC completion times, all episodes in blocks 01–11 and three episodes in block 12 finished before 23 October. The other three episodes in block 12 and all episodes in blocks 13–20 finished on or after 23 October. Thus, 69 of the 120 reported episodes finished before that date and 51 finished on or after it. Blocks 12–20 were completed on or after 23 October.
 
 ## Design
 
-Each block contains all six cells of prior communication (`False` or `True`) crossed with signal condition (`none`, `private`, or `public`). Each of the six cells appears exactly five times at each within-block position across 30 blocks. Public and private signal schedules are matched between the two prior-communication arms within each block.
+Each block contains all six cells of prior communication (`False` or `True`) crossed with signal condition (`none`, `private`, or `public`). In the original 30-block manifest, each of the six cells appears exactly five times at each within-block position. Public and private signal schedules are matched between the two prior-communication arms within each block.
 
 | Phase | Rounds | Communication | Signal |
 | --- | --- | --- | --- |
@@ -23,8 +29,8 @@ python scripts/run_episode.py --episode-id block_01__no_prior_communication__pub
 python scripts/run_block.py --block block_11
 ```
 
-Both commands validate the active V2 config and manifest and default to a no-call dry run. The manifest generator, runners, and summary tools are described in [scripts/README.md](scripts/README.md). The [episode notebook](notebooks/run_episode.ipynb) also defaults to offline inspection. Do not enable execution before the separate freeze decision.
+Both commands validate the V2 config and manifest and default to a no-call dry run. The manifest generator, runners, and summary tools are described in [scripts/README.md](scripts/README.md). The [episode notebook](notebooks/run_episode.ipynb) also defaults to offline inspection.
 
 ## Artifacts and analysis
 
-Scientific runs, when authorized, use `results/<specification_id>/runs/` and `execution_logs/<specification_id>/episodes/`. Rebuildable tables use `results/<specification_id>/tables/`. Data, research notes, and logs are isolated under the same specification ID. The [reproducibility guide](docs/reproducibility.md) details provenance and stored artifacts. No memo or plot is generated automatically during a scientific run.
+Completed scientific runs are stored under `results/<specification_id>/runs/` and `execution_logs/<specification_id>/episodes/`. Rebuildable tables use `results/<specification_id>/tables/`. Data, research notes, and logs are isolated under the same specification ID. The [reproducibility guide](docs/reproducibility.md) details provenance and stored artifacts. No memo or plot is generated automatically during a scientific run.
