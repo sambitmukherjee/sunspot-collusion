@@ -14,6 +14,9 @@ def test_analysis_notebook_uses_package_and_exports_are_opt_in():
     code = "\n".join("".join(cell["source"]) for cell in notebook["cells"] if cell["cell_type"] == "code")
     assert all(cell.get("outputs", []) == [] for cell in notebook["cells"] if cell["cell_type"] == "code")
     assert "from collusion_experiment.metrics import" in code
+    assert "from collusion_experiment.public_signal_inference import public_signal_episode_tests" in code
+    assert "public_signal_episode_tests(episodes, block_ids=PUBLIC_SIGNAL_BLOCKS)" in code
+    assert "PUBLIC_SIGNAL_BLOCKS = range(1, 21)" in code
     assert "from collusion_experiment.plotting import" in code
     assert "EXPORT_DERIVED = False" in code
     assert '"results" / SPECIFICATION_VERSION / "runs"' in code
