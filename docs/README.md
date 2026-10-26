@@ -1,3 +1,5 @@
 # Documentation
 
 The [confirmatory protocol](v2_confirmatory_protocol.md) defines the active V2 config, manifest, schedule construction, and execution boundary. The [analysis plan](v2_confirmatory_analysis_plan.md) defines the 30-pair primary analysis and missing-data policy. The [reproducibility guide](reproducibility.md) explains response contracts, provenance, and durable artifacts.
+
+The sprint paper's V3 research emphasis is an exploratory existence result: whether agents sometimes use a shared, payoff-irrelevant public signal to assign bidding turns. This emphasis, and the episode-level exact randomization test with Holm adjustment, were added after some results were inspected. The [root README](../README.md#research-focus-and-evidence) summarizes the distinction from the original prespecified paired earlier-communication test and points to the runnable [analysis notebook](../notebooks/analysis.ipynb). Public-signal mutual information is a descriptive measure of association with all four bidding outcomes, not a test of complementary turn sharing by itself.
